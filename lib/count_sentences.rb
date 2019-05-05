@@ -28,6 +28,6 @@ end
 
   def count_sentences
   array=self.split(/[.?!]/)
-  array.count_sentences
+  array.length
   end
 end
